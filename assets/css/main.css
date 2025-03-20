@@ -453,6 +453,11 @@ h6 {
   color: var(--background-color);
 }
 
+.logo {
+  max-height: 60px;
+  /* Ajuste conforme necessário */
+}
+
 .footer p {
   font-size: 15;
   font-style: italic;
