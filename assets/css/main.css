@@ -454,8 +454,23 @@ h6 {
 }
 
 .logo {
-  max-height: 60px;
+  /* max-height: 60px; */
   /* Ajuste conforme necessário */
+}
+
+.large-text {
+  font-size: 1.25rem;
+  /* Aumente o valor conforme necessário */
+}
+
+.logo-footer {
+  max-width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-footer {
+    max-width: 80%;
+  }
 }
 
 .footer p {
